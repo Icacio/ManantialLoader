@@ -29,8 +29,8 @@ public class MainLoader {
 	public static Connection getCon() {
 		Connection con = null;
 		var answer = true;
-		System.out.print("Password? ");
 		do {
+			System.out.print("Password? ");
 			var pass = scan.nextLine();
 			try {
 				con = DriverManager.getConnection("jdbc:derby:"+working_dir+"\\Manantial;user=root;password="+pass);

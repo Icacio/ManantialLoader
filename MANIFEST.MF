@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Main-Class: com.example.client.Cli
+Class-Path: Derby/derby.jar Derby/derbyshared.jar
+Created-By: 11.0.22 (Oracle Corporation)
+
