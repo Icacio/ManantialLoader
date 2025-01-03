@@ -19,10 +19,9 @@ public class MainLoader {
 		if (a.length>0) {
 			if (a[0].equals("thinker")) {
 				new Cli();
-				return;
 			}
 			else path = a[0];
-		}
+		} else
 		new Loader(path);
 	}
 
